@@ -19,12 +19,10 @@ while True:
     else:
         break
 
+    # display video
     cv2.imshow('Car Detector', grayscaled_frame)
-
-
     #Dont autoclose (Wait here in the code and listen for a key press)
     cv2.waitKey(1)
-
 
     print("Code Complete")
 
