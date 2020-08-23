@@ -28,7 +28,7 @@ cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
 
 #display the image with the faces spotted
-cv2.imshow('Car Detector', black_n_white)
+cv2.imshow('Car Detector', img)
 
 
 #Dont autoclose (Wait here in the code and listen for a key press)
