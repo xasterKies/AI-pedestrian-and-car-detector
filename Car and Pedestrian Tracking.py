@@ -12,7 +12,10 @@ img = cv2.imread(img_file)
 
 
 #display the image with the faces spotted
-cv2.imshow('')
+cv2.imshow('Samuel Car Detector', img)
+
+
+
 
 
 print("Code Complete")
