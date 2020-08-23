@@ -47,7 +47,7 @@ while True:
     print("Code Complete")
 
     #Stop execution if press Q
-    if key==81 or key=113:
+    if key==81 or key==113:
         break
 
 #Release the video capture object
