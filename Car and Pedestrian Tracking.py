@@ -22,7 +22,7 @@ car_tracker = cv2.CascadeClassifier(classifier_file)
 cars = car_tracker.detectMultiScale(black_n_white)
 
 #Draw rectangles around the cars
-for()
+for(x, y, w, h) in cars:
 
 car1 = cars[0]
 (x, y, w, h) = car1
