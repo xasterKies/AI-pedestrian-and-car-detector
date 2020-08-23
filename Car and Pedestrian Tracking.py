@@ -21,6 +21,8 @@ car_tracker = cv2.CascadeClassifier(classifier_file)
 #detect car
 cars = car_tracker.detectMultiScale(black_n_white)
 
+print(cars)
+
 #display the image with the faces spotted
 cv2.imshow('Car Detector', black_n_white)
 
