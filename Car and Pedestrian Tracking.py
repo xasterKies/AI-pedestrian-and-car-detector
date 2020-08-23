@@ -11,7 +11,7 @@ classifier_file = 'car_dector.xml'
 while True:
 
     #Read the current frame
-    read_successful, frame = video.read()
+    (read_successful, frame) = video.read()
 
     if read_successful:
         #must convert to grayscale
