@@ -13,7 +13,7 @@ car_tracker = cv2.CascadeClassifier(classifier_file)
 #Runs forever
 while True:
     #Read the current frame
-    (read_successful, frame) = video.read()
+    read_successful, frame = video.read()
     if read_successful:
         #must convert to grayscale
         grayscaled_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
