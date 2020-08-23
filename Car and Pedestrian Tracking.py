@@ -31,6 +31,8 @@ while True:
 
     # display video
     cv2.imshow('Car Detector',frame)
+
+    
     #Dont autoclose (Wait here in the code and listen for a key press)
     cv2.waitKey(1)
 
