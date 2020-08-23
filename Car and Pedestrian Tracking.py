@@ -1,5 +1,8 @@
 import cv2
 
-img_file = ''
+#Our Image
+img_file = 'car image.jpg'
+
+#Our classifier
 
 print("Code Complete")
