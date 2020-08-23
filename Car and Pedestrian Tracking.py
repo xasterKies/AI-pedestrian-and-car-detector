@@ -4,7 +4,7 @@ import cv2
 img_file = 'car image.jpg'
 
 #Our pre trained car classifier
-clasifier_file = ''
+clasifier_file = 'car_dector.xml'
 
 
 #create an opencv image
@@ -16,7 +16,7 @@ cv2.imshow('Samuel Car Detector', img)
 
 
 #Dont autoclose (Wait here in the code and listen for a key press)
-
+cv2.waitKey()
 
 
 
