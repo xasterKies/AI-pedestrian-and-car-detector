@@ -2,11 +2,15 @@ import cv2
 
 #Our Image
 img_file = 'car_image.png'
-video = cv2.vid
+video = cv2.VideoCapture('Pedestrian Compilation.mp4')
 
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
 
+while True:
+
+    #Read the current frame
+    read_successful, frame = video.read()
 
 #create an opencv image
 img = cv2.imread(img_file)
