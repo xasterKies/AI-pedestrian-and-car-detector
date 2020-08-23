@@ -27,7 +27,7 @@ while True:
 
     #Draw rectangles around the cars
     for(x, y, w, h) in cars:
-        cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
     # display video
     cv2.imshow('Car Detector', grayscaled_frame)
