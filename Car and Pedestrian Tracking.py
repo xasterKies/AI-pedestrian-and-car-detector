@@ -31,5 +31,4 @@ cv2.imshow('Car Detector', black_n_white)
 cv2.waitKey()
 
 
-
 print("Code Complete")
