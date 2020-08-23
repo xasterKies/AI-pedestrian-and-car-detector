@@ -11,6 +11,10 @@ clasifier_file = 'car_dector.xml'
 img = cv2.imread(img_file)
 
 
+#create car classifier
+car_tracker = cv2.CascadeClasssifier(classifier_file)
+
+
 
 
 
