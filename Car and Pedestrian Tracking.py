@@ -15,12 +15,13 @@ while True:
 
     if read_successful:
         #must convert to grayscale
-        grayscale_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        grayscaled_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     else:
         break
 
+    
 
-
+""""
 #create an opencv image
 img = cv2.imread(img_file)
 
@@ -51,6 +52,6 @@ cv2.waitKey()
 print("Code Complete")
 
 
-""
+""""
 
-""
+#image detection
