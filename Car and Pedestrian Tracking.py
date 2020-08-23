@@ -23,10 +23,8 @@ cars = car_tracker.detectMultiScale(black_n_white)
 
 #Draw rectangles around the cars
 for(x, y, w, h) in cars:
+    cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
-car1 = cars[0]
-(x, y, w, h) = car1
-cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
 
 #display the image with the faces spotted
