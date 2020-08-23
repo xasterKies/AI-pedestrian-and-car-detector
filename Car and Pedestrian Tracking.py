@@ -16,7 +16,7 @@ car_tracker = cv2.CascadeClasssifier(classifier_file)
 
 
 # convert to grayscale (need for here cascade)
-black_n_white = cv2.cvtColor
+black_n_white = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
 #display the image with the faces spotted
