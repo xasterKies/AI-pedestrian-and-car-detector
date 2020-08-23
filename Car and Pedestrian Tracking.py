@@ -2,7 +2,7 @@ import cv2
 
 #Our Image
 img_file = 'car_image.png'
-video = cv2.VideoCapture('Pedestrian Compilation.mp4')
+video = cv2.VideoCapture('Pedestrians Compilation.mp4')
 
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
@@ -25,13 +25,13 @@ while True:
     cars = car_tracker.detectMultiScale(grayscaled_frame)
 
     print(cars)
-    # #Draw rectangles around the cars
-    # for(x, y, w, h) in cars:
-    #     cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
+    #Draw rectangles around the cars
+    for(x, y, w, h) in cars:
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
     # # display video
-    cv2.imshow('Car Detector',grayscaled_frame)
+    cv2.imshow('Car Detector',frame)
     #Dont autoclose (Wait here in the code and listen for a key press)
-    #cv2.waitKey()
+    cv2.waitKey(1)
     print("Code Complete")
 
 
