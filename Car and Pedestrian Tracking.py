@@ -1,7 +1,7 @@
 import cv2
 
 #Our Image
-img_file = 'car_image.jpg'
+img_file = 'car_image.png'
 
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
