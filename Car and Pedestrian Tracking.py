@@ -10,4 +10,9 @@ clasifier_file = ''
 #create an opencv image
 img = cv2.imread(img_file)
 
+
+#display the image with the faces spotted
+cv2.imshow('')
+
+
 print("Code Complete")
