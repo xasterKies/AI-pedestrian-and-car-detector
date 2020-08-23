@@ -6,6 +6,7 @@ video = cv2.VideoCapture('Pedestrians Compilation.mp4')
 
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
+classifier_file = 'haarcascade_fullbody.xml'
 
 #create car classifier
 car_tracker = cv2.CascadeClassifier(classifier_file)
