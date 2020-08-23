@@ -14,13 +14,17 @@ car_tracker = cv2.CascadeClassifier(classifier_file)
 while True:
     #Read the current frame
     read_successful, frame = video.read()
+
     if read_successful:
         #must convert to grayscale
         grayscaled_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     else:
         break
+
     #detect car
     cars = car_tracker.detectMultiScale(grayscaled_frame)
+
+    print(cars)
     #Draw rectangles around the cars
     for(x, y, w, h) in cars:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
