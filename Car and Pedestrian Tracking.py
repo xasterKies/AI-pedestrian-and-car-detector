@@ -25,7 +25,9 @@ while True:
     #detect car
     cars = car_tracker.detectMultiScale(grayscaled_frame)
 
-    print(cars)
+    #Draw rectangles around the cars
+    for(x, y, w, h) in cars:
+        cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
     # display video
     cv2.imshow('Car Detector', grayscaled_frame)
