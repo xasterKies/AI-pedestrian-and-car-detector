@@ -23,7 +23,9 @@ while True:
         break
 
     #detect car
-cars = car_tracker.detectMultiScale(grayscaled_frame)
+    cars = car_tracker.detectMultiScale(grayscaled_frame)
+
+    print(cars)
 
     # display video
     cv2.imshow('Car Detector', grayscaled_frame)
