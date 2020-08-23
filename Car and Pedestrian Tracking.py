@@ -4,7 +4,7 @@ import cv2
 img_file = 'car image.jpg'
 
 #Our pre trained car classifier
-clasifier_file = 'car_dector.xml'
+classifier_file = 'car_dector.xml'
 
 
 #create an opencv image
