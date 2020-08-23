@@ -5,11 +5,11 @@ img_file = 'car_image.png'
 video = cv2.VideoCapture('Pedestrians Compilation.mp4')
 
 #Our pre trained car classifier
-classifier_file = 'car_dector.xml'
-classifier_file = 'haarcascade_fullbody.xml'
+car_tracker_file = 'car_dector.xml'
+classif_file = 'haarcascade_fullbody.xml'
 
 #create car classifier
-car_tracker = cv2.CascadeClassifier(classifier_file)
+car_tracker = cv2.CascadeClassifier(car_tracker_file)
 
 #Runs forever
 while True:
