@@ -43,14 +43,14 @@ while True:
     cv2.imshow('Car and Pedestrian Detector',frame)
 
     #Dont autoclose (Wait here in the code and listen for a key press)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1)
     print("Code Complete")
 
     #Stop execution if press Q
     if key==81 or key=113:
         break
 
-#Re
+#Release the video capture object
 video.release()
 
 
