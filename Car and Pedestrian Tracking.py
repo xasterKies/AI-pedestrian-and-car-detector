@@ -13,7 +13,7 @@ car_tracker = cv2.CascadeClassifier(classifier_file)
 #Runs forever
 while True:
     #Read the current frame
-    read_successful, frame = video.read()
+    (read_successful, frame) = video.read()
 
     if read_successful:
         #must convert to grayscale
@@ -31,7 +31,7 @@ while True:
     # # display video
     cv2.imshow('Car Detector',grayscaled_frame)
     #Dont autoclose (Wait here in the code and listen for a key press)
-    cv2.waitKey()
+    #cv2.waitKey()
     print("Code Complete")
 
 
