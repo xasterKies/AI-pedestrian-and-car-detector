@@ -12,7 +12,7 @@ img = cv2.imread(img_file)
 
 
 #display the image with the faces spotted
-cv2.imshow('Samuel Car Detector', img)
+cv2.imshow('Car Detector', img)
 
 
 #Dont autoclose (Wait here in the code and listen for a key press)
