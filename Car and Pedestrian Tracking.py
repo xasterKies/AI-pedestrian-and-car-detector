@@ -11,6 +11,7 @@ clasifier_file = 'car_dector.xml'
 img = cv2.imread(img_file)
 
 
+
 #display the image with the faces spotted
 cv2.imshow('Car Detector', img)
 
