@@ -13,7 +13,11 @@ while True:
     #Read the current frame
     read_successful, frame = video.read()
 
-    
+    if read_successful:
+        #must convert to grayscale
+        grayscale_frame = cv2.cvtColor(fram, cv2.C)
+
+
 
 #create an opencv image
 img = cv2.imread(img_file)
