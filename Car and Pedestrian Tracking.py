@@ -30,7 +30,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
     # display video
-    cv2.imshow('Car Detector', grayscaled_frame)
+    cv2.imshow('Car Detector',frame)
     #Dont autoclose (Wait here in the code and listen for a key press)
     cv2.waitKey(1)
 
