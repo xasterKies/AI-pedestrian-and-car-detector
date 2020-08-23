@@ -22,6 +22,9 @@ while True:
     else:
         break
 
+    #detect car
+cars = car_tracker.detectMultiScale(grayscaled_frame)
+
     # display video
     cv2.imshow('Car Detector', grayscaled_frame)
     #Dont autoclose (Wait here in the code and listen for a key press)
