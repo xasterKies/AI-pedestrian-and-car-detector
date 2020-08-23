@@ -26,7 +26,6 @@ for(x, y, w, h) in cars:
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
 
-
 #display the image with the faces spotted
 cv2.imshow('Car Detector', img)
 
