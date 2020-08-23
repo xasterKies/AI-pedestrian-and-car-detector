@@ -15,7 +15,9 @@ while True:
 
     if read_successful:
         #must convert to grayscale
-        grayscale_frame = cv2.cvtColor(fram, cv2.COLOR_BGR2GRAY)
+        grayscale_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    else:
+        break
 
 
 
