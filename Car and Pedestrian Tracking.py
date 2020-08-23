@@ -25,6 +25,7 @@ while True:
 
     #detect car
     cars = car_tracker.detectMultiScale(grayscaled_frame)
+    pedestrians = pedestrian_tracker.detectMultiScale(grayscaled_frame)
 
     
     #Draw rectangles around the cars
