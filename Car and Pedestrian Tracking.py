@@ -16,7 +16,7 @@ black_n_white = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
 #create car classifier
-car_tracker = cv2.CascadeClasssifier(classifier_file)
+car_tracker = cv2.CascadeClassifier(classifier_file)
 
 
 
