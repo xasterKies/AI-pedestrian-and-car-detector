@@ -15,6 +15,8 @@ img = cv2.imread(img_file)
 cv2.imshow('Samuel Car Detector', img)
 
 
+#Dont autoclose (Wait here in the code and listen for a key press)
+
 
 
 
