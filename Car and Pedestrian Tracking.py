@@ -30,7 +30,7 @@ while True:
     
     #Draw rectangles around the cars
     for(x, y, w, h) in cars:
-         cv2.rectangle(frame, (x+1, y+2), (x+w, y+h), (225, 0, 0), 2)
+        cv2.rectangle(frame, (x+1, y+2), (x+w, y+h), (225, 0, 0), 2)
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 225), 2)
 
 
