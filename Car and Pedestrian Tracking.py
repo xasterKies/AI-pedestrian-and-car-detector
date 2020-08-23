@@ -62,7 +62,7 @@ cv2.waitKey()
 print("Code Complete")
 
 
-""""
+"""
 
 #image detection
 """"
