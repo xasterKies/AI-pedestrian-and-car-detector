@@ -2,6 +2,7 @@ import cv2
 
 #Our Image
 img_file = 'car_image.png'
+video = cv2.vid
 
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
