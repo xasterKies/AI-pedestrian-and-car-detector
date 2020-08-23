@@ -18,7 +18,8 @@ black_n_white = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #create car classifier
 car_tracker = cv2.CascadeClassifier(classifier_file)
 
-
+#detect car
+cars = car_tracker.detectMultiScale(black_n_white)
 
 #display the image with the faces spotted
 cv2.imshow('Car Detector', black_n_white)
