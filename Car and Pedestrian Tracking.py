@@ -7,6 +7,7 @@ video = cv2.VideoCapture('Pedestrian Compilation.mp4')
 #Our pre trained car classifier
 classifier_file = 'car_dector.xml'
 
+#Runs forever
 while True:
 
     #Read the current frame
